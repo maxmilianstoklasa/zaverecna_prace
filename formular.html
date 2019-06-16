@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Hudební produkce v kostce</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="htpps://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .zeptejte {
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Navigace -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">Hudební produkce <span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Úvod <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vybaveni.html">Vybavení <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="moje_cesta.html">Moje cesta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formular.html">Zeptejte se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Záhlaví & Main -->
+    <header class="shadow jumbotron jumbotron-fluid bg-primary zeptejte">
+        <div class="container-fluid">
+            <h2 class="text-white font-weight-bold text-center">Zeptejte se...
+            </h2>
+            <div class="container">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form>
+            <div class="form-group row">
+                <label for="jmeno" class="col-sm-2 col-form-label"><strong>Jméno</strong></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="jmeno" id="jmeno" placeholder="Vaše jméno" title="Jméno musí začínat velkým písmenem">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="prijmeni" class="col-sm-2 col-form-label"><strong>Příjmení</strong></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="prijmeni" id="prijmeni" placeholder="Vaše příjmení"
+                        title="Příjmení musí začínat velkým písmenem">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label"><strong>Váš email</strong></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Váš email" title="Na váš email dostanete odpověď">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="dotaz" class="col-sm-2 col-form-label"><strong>Váš dotaz</strong></label>
+                <div class="col-sm-8">
+                    <textarea name="dotaz" id="dotaz" class="form-control" rows="8"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Odeslat</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer class="container-fluid mt-4">
+        <hr>
+        <h6 class="text-center">Maxmilián Stoklasa, IT 1, 2019</h6>
+    </footer>

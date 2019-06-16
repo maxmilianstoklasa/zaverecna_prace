@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Hudební produkce v kostce</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="htpps://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        /*body {
+            background-image: url("img/studijo.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }*/
+        
+        .rokit {
+            /*max-height: 400px;*/
+            max-width: 290px;
+            width: 100%;
+            height: auto;
+        }
+        .sluchatka {
+            /*max-height: 400px;*/
+            max-width: 180px;
+            width: 100%;
+            height: auto;
+        }
+        .keyboard {
+            max-width: 280px;
+            width: 100%;
+            height: auto;
+        }
+        .flstudio {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+        }
+        .prevodnik {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+        }
+
+        .mikrofon {
+            max-width: 200px;
+            width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .kalik {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+        }
+
+        .klavir {
+            max-width: 420px;
+            width: 100%;
+            height: auto;
+        }
+
+        .musicmaker {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+        }
+
+        .question_mark {
+            max-width: 170px;
+            width: 100%;
+            height: auto;
+        }
+
+        table, thead, tbody, tr {
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 5px;
+        }
+        
+        h1 {
+            letter-spacing: 5px;
+        }
+
+        .hudba {
+            background-color: rgba(30, 255, 0, 0.541);
+            padding: 4px 4px;
+            border-radius: 4px;
+        }
+
+        small {
+            text-decoration: line-through;
+            /*background-color: rgb(0, 0, 0);*/
+            color: rgb(0, 0, 0);
+            padding: 3px 3px;
+            border-radius: 4px;
+        }
+      
+        p {
+            border-left: 6px solid rgb(9, 160, 30);
+            padding: 5px;
+            background-color: rgba(43, 255, 0, 0.13)
+        }
+
+        /*ul {
+            list-style-image: url("img/minus.jpg")
+        }*/
+
+        img {
+            padding: 15px;
+        }
+        .link:link, .link:visited {
+            background-color: rgb(34, 156, 59);
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        /*a:hover, a:active {
+            background-color: rgb(9, 200, 9)
+        }*/
+    </style>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Navigace -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html">Hudební produkce</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Úvod <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vybaveni.html">Vybavení</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="moje_cesta.html">Moje cesta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formular.html">Zeptejte se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Záhlaví & Main -->
+    <header class="shadow jumbotron jumbotron-fluid bg-success">
+        <div class="container-fluid">
+            <h1 class="text-white display-4 font-weight-bold text-center">Moje cesta
+            </h1>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h3 class="hudba text-center">Začátky s klavírem</h3>
+                <p>K hudbě jsem se dostal zcela přirozeně. Jelikož jsem měl odjakživa po boku své
+                    <strong>hudebně založené rodiče</strong>, nikdy pro mne nebyla hudba cizí. V předškolním věku jsem
+                    začal chodit na hodiny klavíru do ZUŠ Václava Kálika v Opavě. Začátky nebyly jednoduché.
+                    Z toho, co si pamatuju, jsem nebyl v té době schopen hrát na klavír sám od sebe. <strong>Vždycky
+                        mě k tomu motivovali rodiče.</strong>
+                </p>
+                <p>
+                    Po čase jsem u sebe začal zaznamenávat rychlý progres, a tak jsem se v dalších letech
+                    začal účastnit přehlídek a soutěží.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/kalik.jpg" alt="kalik" class="img-fluid kalik mt-3" title="ZUŠ Václava Kálika Opava">
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-lg-6">
+                <img src="img/klavir1.jpg" alt="klavir1" class="img-fluid klavir">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <h3 class="hudba text-center">První náznaky</h3>
+                <p>V páté třídě základní školy, kdy jsem už měl nějaké zkušenosti s hrou na klavír, jsme
+                    se společně <strong>s kamarádem spontánně rozhodli složit píseň.</strong> Vyprávěla o
+                    tom, jak je škola depresivní a smyslpostrádající. Co vám budu povídat... Jako žáci
+                    pátých ročníků jsme ještě neměli žádné zkušenosti a neviděli jsme důležitost studia.
+                    Kamarád se z velké části ujal textu (složil sloky, refrén jsme udělali spolu) a já si nad
+                    ním pak doma sedl ke klavíru a zhudebnil ho. Nepřišlo mi nijak vyjímečné, že jsem
+                    bez jakýchkoli zkušeností se skladbou dokázal okamžitě vymyslet melodie a akordy
+                    hodící se pro náladu oné skladby. Naši společnou píseň jsme poté předvedli na
+                    školním vánočním koncertě 2013 a <strong>v tu chvíli jsem zjistil, že mě tohle dělat nesmírně baví.</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h3 class="hudba text-center">První léta jako producent</h3>
+                <p>Na druhém stupni jsem se začal o hudební produkci zajímat. Stahoval amatérské aplikace
+                    pro vytváření hudby, později jsem si pořídil profesionální DAW FL Studio 12. Začal jsem
+                    sledovat internetové tutoriály, jak vytvářet a pracovat se zvukem. Postupně jsem tomu
+                    začal pčicházet na kloub sám. Hodiny střídaly hodiny, byl jsem schopen strávit celou sobotu
+                    od rána do večera děláním hudby, což bylo velice nezdravé. Produkce mě bavila (a dodnes baví)
+                    více, než hra klavír, jelikož zde mohu projevit mnohem více kreativity.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/musicmaker.jpg" alt="musicmaker" class="img-fluid musicmaker mt-3" title="MAGIX Music Maker Jam - mobilní aplikace">
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-lg-6">
+                <img src="img/question_mark.jpg" alt="question_mark" class="img-fluid question_mark ml-5">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <h3 class="hudba text-center">Hudba jako <small><b><i>koníček</i></b></small> zaměstnání?</h3>
+                <p>
+                    Neposlouchejte ty, co vám říkají, že stačí píle, chtíč a máte zaručenou cestu ke slávě.
+                    Je třeba se podívat pravdě do očí a říct si upřímně, jak to vlastě ve skutečnosti je.
+                    Nikdy nebylo jednoduché se živit uměním. Je zapotřebí hodně dřiny, talentu, kreativity,
+                    smyslu pro propagaci, znát hodně vlivních lidí a v neposlední řadě také trochu
+                    štěstí a náhoda hodněkrát hraje i svou roli.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Tabulka -->
+    <div class="container">
+        <table class="table table-bordered text-center table-dark table-hover mt-3">
+            <thead class="bg-success text-white small">
+                <th colspan="4">
+                    <h3 class="text-uppercase">Moje vybavení</h3>
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="1" class="align-middle">DAW</th>
+                    <td rowspan="1" class="align-middle">FL Studio 20 Producer Edition</td>
+                    <td rowspan="1" class="align-middle"><img src="img/daw_crop.jpg" alt="daw" class="flstudio"></td>
+                    <td rowspan="1" class="align-middle">4 790 Kč</td>
+                </tr>
+                <tr>
+                    <th rowspan="1" class="align-middle">Sluchátka</th>
+                    <td rowspan="1" class="align-middle">Beyerdynamic DTX 910</td>
+                    <td rowspan="1" class="align-middle"><img src="img/dtx.jpg" alt="sluchatka" class="sluchatka"></td>
+                    <td rowspan="1" class="align-middle">1 390 Kč</td>
+                </tr>
+                <tr>
+                    <th rowspan="1" class="align-middle">Keyboard</th>
+                    <td rowspan="1" class="align-middle">Studiologic Numa Compact 2</td>
+                    <td rowspan="1" class="align-middle"><img src="img/studiologic.jpg" alt="keyboard" class="keyboard"></td>
+                    <td rowspan="1" class="align-middle">11 390 Kč</td>
+                </tr>
+                <tr>
+                    <th rowspan="1" class="align-middle">Zvukový převodník</th>
+                    <td rowspan="1" class="align-middle">Behringer U-Phoria UMC204HD</td>
+                    <td rowspan="1" class="align-middle"><img src="img/prevodnik.jpg" alt="prevodnik" class="prevodnik"></td>
+                    <td rowspan="1" class="align-middle">2 290 Kč</td>
+                </tr>
+                <tr>
+                    <th rowspan="1" class="align-middle">Mikrofon</th>
+                    <td rowspan="1" class="align-middle">Shure SM58-LCE</td>
+                    <td rowspan="1" class="align-middle"><img src="img/mikrofon.jpg" alt="mikrofon" class="mikrofon"></td>
+                    <td rowspan="1" class="align-middle">2 690 Kč</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="container-fluid mt-4">
+        <hr>
+        <h6 class="text-center">Maxmilián Stoklasa, IT 1, 2019</h6>
+    </footer>

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Hudební produkce v kostce</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="htpps://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        /*body {
+            background-image: url("img/studijo.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }*/
+        
+        .rokit {
+            /*max-height: 400px;*/
+            max-width: 290px;
+            width: 100%;
+            height: auto;
+        }
+        .beyerdynamic {
+            /*max-height: 400px;*/
+            max-width: 250px;
+            width: 100%;
+            height: auto;
+        }
+        .studiologic {
+            max-width: 280px;
+            width: 100%;
+            height: auto;
+        }
+        .daw {
+            max-width: 200px;
+            width: 100%;
+            height: auto;
+        }
+        .interface {
+            max-width: 250px;
+            width: 100%;
+            height: auto;
+        }
+        
+        h1 {
+            letter-spacing: 5px;
+        }
+      
+        p {
+            border-left: 6px solid rgb(9, 160, 30);
+            padding: 5px;
+            background-color: rgba(43, 255, 0, 0.13)
+        }
+
+        /*ul {
+            list-style-image: url("img/minus.jpg")
+        }*/
+
+        img {
+            padding: 15px;
+        }
+        .link:link, .link:visited {
+            background-color: rgb(34, 156, 59);
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        /*a:hover, a:active {
+            background-color: rgb(9, 200, 9)
+        }*/
+    </style>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Navigace -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html">Hudební produkce</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Úvod <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vybaveni.html">Vybavení</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="moje_cesta.html">Moje cesta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formular.html">Zeptejte se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Záhlaví & Main -->
+    <header class="shadow jumbotron jumbotron-fluid bg-success">
+        <div class="container-fluid">
+            <h1 class="text-white display-4 font-weight-bold text-center">Vybavení
+            </h1>
+        </div>
+    </header>
+
+    <!-- text + img -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>DAW</h2>
+                <p>DAW (Digital Audio Workstation) je kostra všeho. Místo, kde vaše hudba vzniká.</p>
+                <p>Tento software je velice komplikovaný, kvůli své rozmanitosti a zdánlivě omezeých možností.
+                    Každá pracovní stanice je uzpůsobena tak, aby vyhovovala všem tvůrcům hudby, všem žánrům.
+                    Každý DAW obsahuje 2 hlavní typy pluginů (přídavných programů, díky nimž se hudba produkuje): <br>
+                    <strong>1) VST syntetyzátory</strong> se podílejí na samotnou kreaci zvuků. Pracuje s typy
+                    zvukových vln a dále
+                    je tvaruje podle vašich pokynů. Mezi VST syntetyzátory můžeme zařadit <a href="https://www.lennardigital.com/sylenth1/"
+                        target="blank"><strong>Sylenth1</strong></a>,
+                    nebo třeba <a href="https://xferrecords.com/" target="blank"><strong>Serum</strong></a>.<br>
+                    <strong>2) VST Effectory</strong> mají na starost lazení již vytvořeného zvuku. Přidávají zvuku
+                    další
+                    barvu a specifičnost, na který už je VST příliš krátký (například ekvalizace, komprese, reverb).
+                    Můžeme to tedy označit za
+                    postprodukci, která je ale nesmírně důležitá, jelikož ta dělá z amatérských náhravek profesionální.
+                    Mezi VST effetory můžeme zařadit <a href="https://www.thomann.de/cz/fabfilter_pro_q_3.htm?glp=1&gclid=CjwKCAjw0ZfoBRB4EiwASUMdYZFcHOoiWb6i4DEGxjyb_gonArQKeGs1kqLZGMRyPdiYOnWKfhsD_RoCrhgQAvD_BwE">
+                        <strong>Fabfilter Pro Q-3</strong></a>, <a href="https://splice.com/plugins/3788-ott-vst-au-by-xfer-records"><strong>OTT</strong></a>
+                    (kompresor) nebo např. <a href="https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/"><strong>Valhalla
+                            Vintage Verb</strong></a>.
+
+
+                </p>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/daw_crop.jpg" alt="daw" class="img-fluid daw ml-4 mt-4">
+                <a href="https://www.muziker.cz/image-line-fl-studio-20-fruity-edition" target="blank" class="link ml-3">
+                    <h4>FL Studio 20 (Fruity Edition)</h4>
+                </a>
+                <hr>
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>Studiová sluchátka</h2>
+                <p>Sluchátka jsou <strong>stěžejním vybavením</strong> pro hudební produkci, od kterých se odvíjí
+                    kvalita vašeho zvuku.</p>
+                <p>Rozlišujeme 2 základní typy sluchátek: <strong>uavřená a otevřená.</strong><br>
+                    <strong>Uzavřená</strong> sluchátka skvěle těsní zvuk od okolního ruchu a s tímto faktorem
+                    také zpravidla nepropouští téměr žádný zvuk do okolí. Většinou disponují silnými basy, ale
+                    prostorové rozprostření celkového
+                    zvuku je těsné - zvuk zní jako ve vaši hlavě. Tento typ sluchátek je vhodný pro vokálisty ve
+                    studiu.<br>
+                    <strong>Oteveřená</strong> sluchátka naopak zvuk do okolí propouští velmi ochotně, a proto ho také
+                    špatně izolují.
+                    Zvuk v těchto sluchátkách bývá více vyvážený (tzn. v žádných frekvenčních sekcích nenajdeme velké
+                    odchylky od standartního
+                    neutrálního zvuku), takže nečekejte žádné přebasování. Prostorové rozprostření je mnohem větší -
+                    při poslechu z otevřených
+                    sluchátek máte pocit, jako kdyby se vám celá hudba točila kolem hlavy.
+                </p>
+            </div>
+            <div class="col-lg-6 mt-4">
+                <img src="img/sluchatka.jpg" alt="beyerdynamic" class="img-fluid beyerdynamic ml-4">
+                <a href="https://www.muziker.cz/beyerdynamic-dt-990-pro?gclid=CjwKCAjw0ZfoBRB4EiwASUMdYZSnrHaMqz87hXxriXaPSiKOXzwGbkCPijJXrCKllD-wUXNp7oyDdhoC6yAQAvD_BwE"
+                    target="blank" class="link ml-3">
+                    <h4>Beyerdynamic DT 990 Pro</h4>
+                </a>
+                <hr>
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>Reproduktory</h2>
+                <p>K dosažení věrného a kvalitního zvuku je nejlepší pár věrných a kvalitních reproduktorů.</p>
+                <p>Zatímco sluchátka slouží jako hlavním referenčním zdrojem pro odposlech, pár reproduktorů vám
+                    může posloužit jako test finální nahrávky, popř. jako nástroj k objevení problémů, které
+                    ve svých sluchátkách nemusíte slyšet. <br>
+                    Kvalitu výstupu zvuku z reproduktorů markantně ovlivňuje pokoj, ve kterím se nachází a <strong>pozice,
+                        ve které stojí</strong>. Je vhodné si pořídit do studia koberec a akustickou pěnu, která
+                    výborně absorbuje
+                    zvukové vlny. V neposlední řadě se považuje za nutnost, aby reprobedny směřovaly k vaší hlavě.
+                </p>
+            </div>
+            <div class="col-lg-6 mt-3">
+                <a href="https://www.muziker.cz/krk-rokit-6-g3-black?gclid=Cj0KCQjwi43oBRDBARIsAExSRQH1SHJNFpBFvO4DECLuAzIzyYIpST9HZTmXMiHsUn_wChfkprLAAL8aAryeEALw_wcB"
+                    target="blank">
+                    <img src="img/rokit.jpg" alt="krk" class="img-fluid rokit ml-2">
+                </a>
+                <a href="https://www.muziker.cz/krk-rokit-6-g3-black?gclid=CjwKCAjw0ZfoBRB4EiwASUMdYSzMKD_8a1aDcHTgEKRUw3_rSZeSSD51T2VgMIbAhTH856I2ZmMPmhoCIR8QAvD_BwE"
+                    target="blank" class="link">
+                    <h4>KRK Rokit 6 G3</h4>
+                </a>
+                <hr>
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>MIDI Klávesy</h2>
+                <p>MIDI klávesy umožňují nahrát do pracovní stanice (DAW) <strong>výstup z kláves</strong>.</p>
+                <p>Pakliže jste se dostali do fáze, kdy vám nestačí pracovat se softwarem samotným a chcete vaší hudbě
+                    <strong>přidat</strong> trochu <strong>na realističnosti</strong> , nabízí se vám MIDI keyboard.
+                    Ten totiž dokáže digitálně přenést vaši
+                    hru na klávesy do vašeho softwaru. Nemusíte tak zdlouhavě naklikávat noty, jednu po druhé.<br>
+                    Mezi vedlejší funkce MIDI keyboardu jsou ovládání nastavení různých instrumentálů ve skladbě. K
+                    tomu
+                    slouží takzvané <strong>"knoby"</strong>. Na každý knob se dá nastavit jiná priroita, která bude
+                    mít nějaký úkol.
+                    Jednoduše řečeno - když pracujete s velkými projekty ve vašem DAW, kde se nedá dobře vyznat, můžete
+                    si usnadnit práci pomocí knobů na vašem keyboardu.
+                </p>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/studiologic.jpg" alt="studiologic" class="img-fluid studiologic mt-4">
+                <a href="https://www.muziker.cz/studiologic-numa-compact-2?gclid=CjwKCAjw0ZfoBRB4EiwASUMdYXM4_o5cNS9L9HY_jrcOUiDsIIfUkl8aCx2YDlFbxdSmq_WPTP9v5BoCKpwQAvD_BwE"
+                    target="blank" class="link">
+                    <h4>Studiologic Numa Compact 2</h4>
+                </a>
+                <hr>
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>Zvukový převodník</h2>
+                <p>Zvukový převodník je <strong>externí zvuková karta</strong>, která vám <strong>zvýší kvalitu
+                        poslechu</strong>.</p>
+                <p>Tato malá věcička dokáže vytáhnout z kvality zvuku více než vaše integrovaná zvuková karta v
+                    počítači.
+                    Můžete do ní zapojit své MIDI nástroje, mikrofony, sluchátka, reproduktory a upravovat jejich
+                    hlasitost.
+                    Rozdíl kvality pocítíte hlavně, když vlastníte kvalitní externí zažízení, např. studiová sluchátka
+                    za
+                    10 000 kč, ale používáte interní zvukovou kartu ve svém počítači.
+                </p>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/prevodnik.jpg" alt="interface" class="img-fluid interface">
+                <a href="https://www.muziker.cz/image-line-fl-studio-20-fruity-edition" target="blank" class="link">
+                    <h4>Behringer U-Phoria UMC204HD</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid mt-4">
+        <hr>
+        <h6 class="text-center">Maxmilián Stoklasa, IT 1, 2019</h6>
+    </footer>
